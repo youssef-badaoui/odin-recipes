@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>main page</title>
+		<meta charset="UTF-8">
+		<style>
+			body{
+				font-family: Chalkduster, fantasy;
+				background-color :  black;
+				display: flex;
+				flex-direction: column;
+				justify-content:space-between;
+				height: 95vh;
+			}
+			h1{
+				text-align: center;
+				color: #FDF0D5;
+				margin-top: 70px;
+			}
+			h3{
+				text-align: center;
+				color: burlywood;
+			}
+
+			.flex-container {
+				display:flex;
+				color: white;
+				justify-content: space-between;                
+				align-items: center;
+				margin: 2% 0px;
+			}
+			.recipes{
+				background-color: #121413;
+				margin:  7px 12px;
+				margin-top: 2px;
+				margin-bottom: 2px;
+				border-radius: 5px;     
+				padding: 12px;
+			}
+			#content{
+				margin-top: -250px;
+				font-family: Chalkduster, fantasy;
+				background-repeat: no-repeat;
+				background-color : black;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+
+			p{
+				text-align: center;
+				line-height: 1.9;
+				letter-spacing: 2px;
+			}
+			footer{
+				color:#b9c0bd;
+				text-align: center;
+				/* margin: 10%; */
+			}
+			/* #footer{
+				margin: 90%;
+			} */
+
+			#f{
+				color: red;
+			}
+			#s{
+				color: white;
+			}
+			#t{
+				color:green;
+			}
+			#history{
+				color: #b9c0bd;
+			}
+			.show{
+				color: black;
+				border-radius: 10px;
+				font-family: Chalkduster, fantasy;
+				border: blueviolet solid 1px;
+				padding: 5px;
+				margin: 0 34%;
+				width: 100px;
+				cursor: pointer;
+
+			}
+			#b1{
+				color: black;
+				border-radius: 10px;
+				font-family: Chalkduster, fantasy;
+				border: blueviolet solid 1px;
+				padding: 7px;
+				margin: 0 40%;
+				width: 90px;
+				cursor: pointer;
+			}
+			#b2{
+				color: black;
+				border-radius: 10px;
+				font-family: Chalkduster, fantasy;
+				border: blueviolet solid 1px;
+				padding: 7px;
+				margin: 0 34%;
+				width: 90px;
+				cursor: pointer;
+			}
+			#b3{
+				color: black;
+				border-radius: 10px;
+				font-family: Chalkduster, fantasy;
+				border: blueviolet solid 1px;
+				padding: 7px;
+				margin: 0 40%;
+				width: 90px;
+				cursor: pointer;
+			}
+			img{
+				width: 400px;
+				height: 400px;
+				margin: 5% 40%;
+			}
+			button{
+				background-color: blanchedalmond;
+			}
+
+			</style>
+	</head>
+	
+	<body>
+		<h1><span id="f">welcome</span> <span id="s"> to</span> <span id="t"> recipes</span></h1>
+		<div id="content">
+		<div class="recipes" id="history">
+			<h3>italian food history</h3>
+			<p>If you’ve dined with us at Cucina Rustica, you’ll agree that there is much more to Italian food than just pasta and pizza so we thought we’d give you a quick history lesson on Italian food!
+				Italy expands over a sizeable piece of southern Europe and has many different regions each having their own special cuisine and eating habits. The cooking styles and ingredients also vary from area to area. The cuisine of Italy has also been influenced with the changes that have taken place in the world throughout history. Today, Italian cuisine features meals that retain the pre Roman era taste along with others that are strikingly different to the traditional cuisine of Italy.
+			</p>
+		</div>
+		<div class="flex-container">
+			<div class="recipes" id="l">
+				<h3>Pizza</h3>
+				<p>Pizza is one of those foods that needs no introduction. You can find it all over the world – there are even pizzerias in North Korea – and the simple marriage of flat dough and toppings is a fantastic example of the beautiful simplicity of Italian cuisine.
+					 This collection of pizza recipes demonstrates that perfectly.</p>
+					 <a href="pizza.html">
+						<button id="b1">show</button></a>
+			</div>
+			<div class="recipes" id="c">
+				<h3>Panforte</h3>
+				<p>TGiulia serves up a stunning panforte recipe for Christmas. The heady aromas of coriander seed,
+					 mace, clove and nutmeg while the cake is baking will fill your kitchen with plenty of festive cheer.</p>
+					 <a href="images/pizza3.jpeg">
+						<button id="b2">show</button></a>
+			</div>
+			<div class="recipes" id="r">
+				<h3>Pasta</h3>
+				<p>The history of pasta has its beginnings so well entrenched in Italian culture that hundreds of pasta both dried (secca) and fresh (fresca) are produced every day, with each Italian region having its own distinct variations. In fact,
+					 each shape of pasta has been carefully designed to be paired with a particular sauce.</p>
+					 <a href="images/pizza3.jpeg">
+						 <button id="b3">show</button></a>
+
+			</div>
+		</div>
+		<!-- <img src="images/cack.png"> -->
+	</div>
+		<footer>Powered by YOSEF.</footer>
+	</body>
+
+</html>
